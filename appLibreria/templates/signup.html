@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form</title>
+
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="../../static/css/log_in.css">
+</head>
+<body>
+  <div class="container">
+    
+    <div class="form">
+      <header>Signup</header>
+      <a href="{% url 'inicio' %}">
+        <img src="../../static/img/logo.jpg" alt="" width="100px" style="margin-left: 35%; margin-bottom: 15%;" >
+      </a>
+      <form action="{% url 'registro' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" class="button btn" value="Registrarse" id="signupButton">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</body>
+</html>

@@ -1,0 +1,76 @@
+.encabezado {
+    margin-top: 1%;
+    font-size: 25px;
+}
+
+
+.sb{
+    width: 700px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.bi{
+    font-size: 40px;
+}
+
+.ingresar-texto{
+    text-decoration: none;
+    transition: color 0.3s;
+    color: black
+}
+.ingresar-texto:hover{
+    color: grey;
+}
+
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.op{
+    font-size: 30px;
+
+
+}
+
+.lupa{
+    font-size: 18px;
+}
+.card{
+    margin-left: 38%;
+    margin-bottom: 30px;
+}
+.card-text{
+    text-align: center;
+}
+.btn {
+    background-color:rgb(30, 157, 98);
+}
+body{
+    background-image: url(/img/background.jpg);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    background-color: rgb(122, 103, 78);
+    margin: 2%;
+    border: solid   black;
+    }
+
+    #Subtitulo{
+        background-color: gold;
+
+    }
+i {
+color: black;
+background: none;
+}
